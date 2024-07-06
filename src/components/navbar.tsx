@@ -1,8 +1,11 @@
-
 import { Router } from '../main';
 
 interface Route {
   path: string;
+}
+
+interface RouterType {
+  routes: Route[];
 }
 
 interface NavbarProps {
@@ -51,7 +54,8 @@ const Navbar = (props: NavbarProps): JSX.Element => {
 };
 
 const MainNavbar = (): JSX.Element => {
-  const paths = Router.routes.map((route: Route) => route.path);
+  const router = Router as RouterType;
+  const paths = router.routes.map((route: Route) => route.path);
 
   const addedPaths = paths.concat(Array(Math.max(0, 8 - paths.length)).fill('/'));
 
