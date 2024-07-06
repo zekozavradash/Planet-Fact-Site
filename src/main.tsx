@@ -11,42 +11,20 @@ import Jupiter from './pages/jupiter'
 import Saturn from './pages/saturn'
 import Uranus from './pages/uranus'
 import Neptune from './pages/neptune'
+
+
 const Router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Mercury />
-  },
-  {
-    path: '/venus',
-    element: <Venus />
-  },
-  {
-    path: '/earth',
-    element: <Earth />
-  },
-  {
-    path: '/mars',
-    element: <Mars />
-  },
-  {
-    path: '/jupiter',
-    element: <Jupiter />
-  },
-  {
-    path: '/saturn',
-    element: <Saturn />
-  },
-  {
-    path: '/uranus',
-    element: <Uranus />
-  },
-  {
-    path: '/neptune',
-    element: <Neptune />
-  },
+  {path: '/', element: <Mercury />},
+  {path: '/venus', element: <Venus />},
+  {path: '/earth', element: <Earth />},
+  {path: '/mars', element: <Mars />},
+  {path: '/jupiter', element: <Jupiter />},
+  {path: '/saturn', element: <Saturn />},
+  {path: '/uranus', element: <Uranus />},
+  {path: '/neptune', element: <Neptune />},
 ]);
 
-export { Router };
+export default Router;
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
