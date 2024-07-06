@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './index.css'
@@ -10,8 +10,7 @@ import Jupiter from './pages/jupiter'
 import Saturn from './pages/saturn'
 import Uranus from './pages/uranus'
 import Neptune from './pages/neptune'
-
-const router = createBrowserRouter([
+const Router = createBrowserRouter([
   {
     path: '/',
     element: <Mercury/>
@@ -46,10 +45,11 @@ const router = createBrowserRouter([
   },
 ]);
 
-export { router };
+export { Router };
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <RouterProvider router={router}/>
-  </React.StrictMode>,
+
+    <RouterProvider router={Router}/>
+  
 )

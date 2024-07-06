@@ -1,10 +1,12 @@
 import PageBuild from "../components/pagebuild";
 import data from '../data.json'
-interface PlanetData {
+// src/types.ts
+export interface PlanetData {
   name: string;
   overview: {
     content: string;
     source: string;
+    colors: string;
   };
   structure: {
     content: string;
@@ -24,6 +26,7 @@ interface PlanetData {
     geology: string;
   };
 }
+
 
 function Neptune(): JSX.Element {
   const NeptuneData = data[7] as PlanetData;
