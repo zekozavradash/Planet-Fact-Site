@@ -25,28 +25,28 @@ const Navbar = (props: NavbarProps): JSX.Element => {
       <div className="logo">THE PLANETS</div>
       <div className="paths">
         <div className="Mercury-navbar navbarlink">
-          <a href={props.Mercury || '/mercury'} className="navbarlink">Mercury</a>
+          <a href={props.Mercury || '/'} className="navbarlink">Mercury</a>
         </div>
         <div className="Venus-navbar navbarlink">
-          <a href={props.Venus || '/venus'} className="navbarlink">Venus</a>
+          <a href={props.Venus || '/'} className="navbarlink">Venus</a>
         </div>
         <div className="Earth-navbar navbarlink">
-          <a href={props.Earth || '/earth'} className="navbarlink">Earth</a>
+          <a href={props.Earth || '/'} className="navbarlink">Earth</a>
         </div>
         <div className="Mars-navbar navbarlink">
-          <a href={props.Mars || '/mars'} className="navbarlink">Mars</a>
+          <a href={props.Mars || '/'} className="navbarlink">Mars</a>
         </div>
         <div className="Jupiter-navbar navbarlink">
-          <a href={props.Jupiter || '/jupiter'} className="navbarlink">Jupiter</a>
+          <a href={props.Jupiter || '/'} className="navbarlink">Jupiter</a>
         </div>
         <div className="Saturn-navbar navbarlink">
-          <a href={props.Saturn || '/saturn'} className="navbarlink">Saturn</a>
+          <a href={props.Saturn || '/'} className="navbarlink">Saturn</a>
         </div>
         <div className="Uranus-navbar navbarlink">
-          <a href={props.Uranus || '/uranus'} className="navbarlink">Uranus</a>
+          <a href={props.Uranus || '/'} className="navbarlink">Uranus</a>
         </div>
         <div className="Neptune-navbar navbarlink">
-          <a href={props.Neptune || '/neptune'} className="navbarlink">Neptune</a>
+          <a href={props.Neptune || '/'} className="navbarlink">Neptune</a>
         </div>
       </div>
     </div>
