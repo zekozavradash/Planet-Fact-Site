@@ -12,35 +12,35 @@ import Uranus from './pages/uranus'
 import Neptune from './pages/neptune'
 const Router = createBrowserRouter([
   {
-    path: '/',
+    path: 'https://planet-fact-site-mu.vercel.app/',
     element: <Mercury/>
   },
   {
-    path: '/venus',
+    path: 'https://planet-fact-site-mu.vercel.app/venus',
     element: <Venus/>
   },
   {
-    path: '/earth',
+    path: 'https://planet-fact-site-mu.vercel.app/earth',
     element: <Earth/>
   },
   {
-    path: '/mars',
+    path: 'https://planet-fact-site-mu.vercel.app/mars',
     element: <Mars/>
   },
   {
-    path: '/jupiter',
+    path: 'https://planet-fact-site-mu.vercel.app/jupiter',
     element: <Jupiter/>
   },
   {
-    path: '/saturn',
+    path: 'https://planet-fact-site-mu.vercel.app/saturn',
     element: <Saturn/>
   },
   {
-    path: '/uranus',
+    path: 'https://planet-fact-site-mu.vercel.app/uranus',
     element: <Uranus/>
   },
   {
-    path: '/neptune',
+    path: 'https://planet-fact-site-mu.vercel.app/neptune',
     element: <Neptune/>
   },
 ]);
