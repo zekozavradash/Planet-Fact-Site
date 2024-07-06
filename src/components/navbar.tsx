@@ -1,4 +1,4 @@
-import Router  from '../main';
+import {Router}  from '../main';
 
 interface Route {
   path: string;
