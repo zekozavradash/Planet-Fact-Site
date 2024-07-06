@@ -3,7 +3,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './index.css'
-
 import Mercury from "./pages/mercury"
 import Venus from "./pages/venus"
 import Earth from "./pages/earth"
